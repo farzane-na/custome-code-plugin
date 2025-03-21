@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "nahid";
+    src: url("./../font/nahid/Nahid.ttf") format('truetype'),
+    url("./../font/nahid/Nahid.woff") format('woff'),
+    url("./../font/nahid/Nahid.woff2") format('woff2');
+    font-style: normal;
+    font-display: swap;
+}
+#adminmenu .wp-menu-image img{
+    opacity: 1;
+}
+.csas-title,
+.csas-heading,
+.csas-label{
+    font-family: "nahid";
+}
+.csas-title{
+    margin-bottom: 60px;
+}
+.csas-label{
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
