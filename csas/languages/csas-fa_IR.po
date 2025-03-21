@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: custome codes\n"
+"POT-Creation-Date: 2025-03-21 08:20-0500\n"
+"PO-Revision-Date: 2025-03-21 08:24-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: csas.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin.php:8 includes/admin.php:9
+msgid "custome code"
+msgstr "کد سفارشی"
+
+#: view/viewPlugin.php:7
+msgid "Your changes were successfully saved.😍"
+msgstr "تغییرات شما با موفقیت ذخیره شد.😍"
+
+#: view/viewPlugin.php:14
+msgid "custom codes"
+msgstr "کدهای سفارشی"
+
+#: view/viewPlugin.php:19
+msgid "css code:"
+msgstr "کد css:"
+
+#: view/viewPlugin.php:21
+msgid "In this section you can add your own custom styles to your WordPress site."
+msgstr "در این بخش شما می‌توانید استایل‌های سفارشی خود را به سایت وردپرسی خود اضافه کنید."
+
+#: view/viewPlugin.php:26
+msgid "javascripts code:"
+msgstr "کد js:"
+
+#: view/viewPlugin.php:28
+msgid "In this section you can add your custom scripts to your WordPress site."
+msgstr "در این بخش شما می‌توانید اسکریپت‌های سفارشی خود را به سایت وردپرسی خود اضافه کنید."
+
+#: view/viewPlugin.php:34
+msgid "save changes"
+msgstr "دخیره تغییرات"
+
+#. Plugin Name of the plugin/theme
+msgid "custome codes"
+msgstr "کدهای سفارشی"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/farzane-na/custome-code-plugin"
+msgstr "https://github.com/farzane-na/custome-code-plugin"
+
+#. Description of the plugin/theme
+msgid "Using this plugin, you can add your desired styles and scripts to your site."
+msgstr "با استفاده از این افزونه می‌توانید استایل‌ها و اسکریپت‌های مورد نظر خود را به سایت اضافه کنید."
+
+#. Author of the plugin/theme
+msgid "farzane nazmabadi"
+msgstr "فرزانه نظم آبادی"
+
+#. Author URI of the plugin/theme
+msgid "https://farzanenazmabadi.ir/"
+msgstr "https://farzanenazmabadi.ir/"

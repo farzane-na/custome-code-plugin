@@ -5,7 +5,8 @@ function include_view_file(){
 };
 function add_admin_menu(){
     add_menu_page( 
-    "کد سفارشی", "کد سفارشی" ,
+    __("custome code","csas"),
+    __("custome code","csas"),
     "manage_options",
     "csas", 
     "include_view_file",

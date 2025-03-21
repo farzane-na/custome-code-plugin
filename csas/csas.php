@@ -1,16 +1,20 @@
 <?php
 /*
- * Plugin Name:       کد سفارشی
- * Plugin URI:        https://example.com/plugins/the-basics/
- * Description:       با استفاده از این افزونه می‌توانید استایل‌ها و اسکریپت‌های مورد نظر خود را به سایت اضافه کنید.
+ * Plugin Name:       custome codes
+ * Plugin URI:        https://github.com/farzane-na/custome-code-plugin
+ * Description:       Using this plugin, you can add your desired styles and scripts to your site.
  * Version:           1.0.0
  * Requires PHP:      7.2
- * Author:            فرزانه نظم آبادی
+ * Author:            farzane nazmabadi
  * Author URI:        https://farzanenazmabadi.ir/
  * Text Domain:       csas
  * Domain Path:       /languages
  */
 
+function csas_load_textdomain() {
+    load_plugin_textdomain('csas', false, dirname(plugin_basename(__FILE__)) . '/languages');
+}
+add_action('plugins_loaded', 'csas_load_textdomain');
 
 
 if ( !defined( 'ABSPATH' ) ) {
