@@ -10,7 +10,7 @@ This plugin allows you to add custom CSS and JavaScript code directly from the W
 
 ## Installation 📌
 
-1. Download the plugin from [GitHub](https://https://github.com/farzane-na/custome-code-plugin/csas.zip).
+1. Download the plugin from [GitHub](https://github.com/farzane-na/custome-code-plugin/blob/ed4ab0b68bde3a3628fa70213cbc8764e5144d8a/csas.zip).
 2. Log in to your WordPress dashboard and navigate to **Plugins > Add New**.
 3. Click on **Upload Plugin** and select the downloaded ZIP file.
 4. After installation, click **Activate**.
