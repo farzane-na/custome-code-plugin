@@ -23,6 +23,8 @@ if ( !defined( 'ABSPATH' ) ) {
 
 define( 'CSAS_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CSAS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+define("ADD_SCRIPT_FILE",plugin_dir_url( __FILE__ )."includes/assets/admin.js");
+define("CSAS_PLUGIN_VERSION","1.0.0");
 
 
 require_once CSAS_PLUGIN_PATH . 'includes/admin.php';

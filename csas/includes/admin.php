@@ -28,3 +28,14 @@ if(get_option( "csas-script")){
         echo  "<script>".get_option( "csas-script")."</script>";
     } );
 };
+
+add_action("admin_enqueue_scripts",function(){
+    
+    wp_enqueue_script( "add_code_editor_script", CSAS_PLUGIN_URL."includes/assets/admin.js", [], CSAS_PLUGIN_VERSION, false );
+    wp_add_inline_script( "add_code_editor", "const myData=". json_encode(wp_enqueue_code_editor( [
+        "type"=>"text/javascript"
+    ] )), "before" );
+    wp_add_inline_script( "add_code_editor", "const myData=". json_encode(wp_enqueue_code_editor( [
+        "type"=>"text/css"
+    ] )), "before" );
+});

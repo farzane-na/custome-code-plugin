@@ -22,7 +22,7 @@ $scriptCode=get_option( "csas-script",'' );
                     <label for="csas-style" class="csas-label">
                         <?php echo __("In this section you can add your own custom styles to your WordPress site.", "csas"); ?>
                     </label>
-                    <textarea name="csas-style" id="csas-style" rows="15" class="large-text code"><?= $styleCode ?></textarea>
+                    <textarea name="csas-style" id="csas-style" rows="15" class="large-text code css"><?= $styleCode ?></textarea>
                 </td>
             </tr>
             <tr>
@@ -31,7 +31,7 @@ $scriptCode=get_option( "csas-script",'' );
                     <label for="csas-script" class="csas-label">
                         <?php echo __("In this section you can add your custom scripts to your WordPress site.", "csas"); ?>
                     </label>
-                    <textarea name="csas-script" id="csas-script" rows="15" class="large-text code"><?= $scriptCode ?></textarea>
+                    <textarea name="csas-script" id="csas-script" rows="15" class="large-text code js"><?= $scriptCode ?></textarea>
                 </td>
             </tr>
         </tbody>
